@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: false
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  decorator-transforms:
+    hash: 0ef4573740dfb8900dcddf6726cf9b57143c7794a6a92d0c534afb64af184b12
+    path: patches/decorator-transforms.patch
+
 importers:
 
   .:
@@ -92,7 +97,7 @@ importers:
         version: 4.0.0
       decorator-transforms:
         specifier: ^2.2.2
-        version: 2.3.1(@babel/core@7.29.0)
+        version: 2.3.1(patch_hash=0ef4573740dfb8900dcddf6726cf9b57143c7794a6a92d0c534afb64af184b12)(@babel/core@7.29.0)
       ember-qunit:
         specifier: ^9.0.2
         version: 9.0.4(@ember/test-helpers@5.4.1(@babel/core@7.29.0))(qunit@2.25.0)
@@ -125,7 +130,7 @@ importers:
         version: 1.10.2
       decorator-transforms:
         specifier: ^2.2.2
-        version: 2.3.1(@babel/core@7.29.0)
+        version: 2.3.1(patch_hash=0ef4573740dfb8900dcddf6726cf9b57143c7794a6a92d0c534afb64af184b12)(@babel/core@7.29.0)
     devDependencies:
       '@babel/core':
         specifier: ^7.25.2
@@ -165,7 +170,7 @@ importers:
         version: 1.10.2
       decorator-transforms:
         specifier: ^2.2.2
-        version: 2.3.1(@babel/core@7.29.0)
+        version: 2.3.1(patch_hash=0ef4573740dfb8900dcddf6726cf9b57143c7794a6a92d0c534afb64af184b12)(@babel/core@7.29.0)
     devDependencies:
       '@babel/core':
         specifier: ^7.25.2
@@ -202,7 +207,7 @@ importers:
         version: 1.10.2
       decorator-transforms:
         specifier: ^2.2.2
-        version: 2.3.1(@babel/core@7.29.0)
+        version: 2.3.1(patch_hash=0ef4573740dfb8900dcddf6726cf9b57143c7794a6a92d0c534afb64af184b12)(@babel/core@7.29.0)
     devDependencies:
       '@babel/core':
         specifier: ^7.25.2
@@ -5458,7 +5463,7 @@ snapshots:
       '@embroider/addon-shim': 1.10.2
       '@embroider/macros': 1.20.2
       '@simple-dom/interface': 1.4.0
-      decorator-transforms: 2.3.1(@babel/core@7.29.0)
+      decorator-transforms: 2.3.1(patch_hash=0ef4573740dfb8900dcddf6726cf9b57143c7794a6a92d0c534afb64af184b12)(@babel/core@7.29.0)
       dom-element-descriptors: 0.5.1
     transitivePeerDependencies:
       - '@babel/core'
@@ -6792,7 +6797,7 @@ snapshots:
 
   decimal.js@10.6.0: {}
 
-  decorator-transforms@2.3.1(@babel/core@7.29.0):
+  decorator-transforms@2.3.1(patch_hash=0ef4573740dfb8900dcddf6726cf9b57143c7794a6a92d0c534afb64af184b12)(@babel/core@7.29.0):
     dependencies:
       '@babel/plugin-syntax-decorators': 7.28.6(@babel/core@7.29.0)
       babel-import-util: 3.0.1
@@ -7034,7 +7039,7 @@ snapshots:
   ember-strict-application-resolver@0.1.1(@babel/core@7.29.0):
     dependencies:
       '@embroider/addon-shim': 1.10.2
-      decorator-transforms: 2.3.1(@babel/core@7.29.0)
+      decorator-transforms: 2.3.1(patch_hash=0ef4573740dfb8900dcddf6726cf9b57143c7794a6a92d0c534afb64af184b12)(@babel/core@7.29.0)
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color

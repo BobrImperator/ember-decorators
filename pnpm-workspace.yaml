@@ -3,4 +3,6 @@ packages:
 approveBuilds: esbuild
 
 autoInstallPeers: false
+patchedDependencies:
+  decorator-transforms: patches/decorator-transforms.patch
 resolvePeersFromWorkspaceRoot: false
