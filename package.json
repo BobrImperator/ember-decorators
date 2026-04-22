@@ -3,6 +3,7 @@
   "private": true,
   "description": "Core library for Ember Decorators",
   "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "lint": "eslint .",
     "build": "pnpm -r build",
